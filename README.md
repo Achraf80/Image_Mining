@@ -1,33 +1,11 @@
 ImageMining: Atelier N°1: CBIR
+
 Achraf Ait Laydi
+
 achrafaitlaydi@gmail.com
 
 
 Table des matières :
-1 - Introduction
-
-2 - Base d’images
-
-3 - Implémentation
-
-3.1 - Lecture des images
-
-3.2 - Recherche par image entière
-
-3.3 - Recherche par Couleur
-
-3.4 - Recherche par Histogramme
-
-3.5 - Recherche par texture
-
-3.6 - Recherche par Forme
-
-3.7 - Le vecteur generale
-
-3.8 - Robustesse vis-à-vis des transformations géométriques
-
-4 - Conclusion
-
 
 1 Introduction
 L’objectif de cet atelier est d’initier le lecteur aux systèmes de recherches basées sur le contenu (CBIR, Content Based Image Retrieval). Le CBIR permet entre autres de rechercher les images similaires à une image requête dans une base, constituées, d’images. Cette similarité est calculée non pas sur les images elles-mêmes mais par le biais d’une description (descripteur) choisie par celui qui a conçu le système. La figure ci-dessous présente une vue globale d’un système CBIR.
